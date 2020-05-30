@@ -5,7 +5,8 @@ Aqui, estão algumas anotações que faço durante os estudos. Neste arquivo com
 
 ## Capturando dados do teclado
 
-**Passo 1:** 
+**Passo 1:**
+<br>
 Você pode utilizar a  classe *Scanner* juntamente com a classe *System* que através do método *in* vai identificar o que de fato o programa irá ler: Os dados de entrada do seu teclado. Como o próprio nome sugere, ele vai **"scannear"** (ler) os dados informados. Exemplo:
 
 `Scanner scanner = new Scanner (System.in);`
@@ -17,15 +18,16 @@ Você pode utilizar a  classe *Scanner* juntamente com a classe *System* que atr
 **Já adiantando:** este trecho informa o que será "impresso" como saída na tela, por isso o *out*
 
 **Passo 2: Criando variáveis e armazenando os valores**
+<br>
 Sabemos que o que você digitar deve ser guardado em algum lugar, então para a criação de variáveis e atribuição de valores, faço da seguinte forma:
 
-`double valor;`
-`System.out.println("Informe o valor: ");`
+`double valor;` <br>
+`System.out.println("Informe o valor: ");` <br>
 `valor = scanner.nextDouble();`
 
 **Nota:** Eu coloco a variável separada do *scanner* por questão de escolha. Mas a atribuição pode ser feita diretamente. Exemplo: 
 
-`System.out.println("Informe o valor: ");`
+`System.out.println("Informe o valor: ");` <br>
 `double valor = scanner.nextDouble();`
 
 **Importante:** Você deve utilizar o método `scanner.next` de acordo com o tipo de dado que vai armazenar na variável como demonstrado na tabela abaixo:
