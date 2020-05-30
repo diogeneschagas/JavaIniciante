@@ -64,4 +64,4 @@ Você pode ver um exemplo de código utilizando o `Switch case` [clicando aqui](
 
 
 ## E agora? O que vem por aí?
-Para saber quais serão os próximos passos, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/README.md).
+Para saber quais serão os próximos passos, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/README.md#primeiros-passos).
