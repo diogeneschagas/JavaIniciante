@@ -5,6 +5,12 @@ Aqui, estão algumas anotações que faço durante os estudos. Neste arquivo com
 
 **IMPORTANTE**: Este documento é passível de revisão. Portanto, caso encontre alguma inconsistência (conceito ou dica equivocados) fique à vontade para corrigir. A ideia é colaborar, **SEMPRE!** 😉
 
+## Índice:
+
+- [Capturando dados do teclado](#capturando-dados-do-teclado)
+- [Operadores Lógicos](#operadores-lógicos)
+- [Switch Case](#switch-case)
+
 ## Capturando dados do teclado
 
 **Passo 1:**
@@ -43,7 +49,8 @@ Sabemos que o que você digitar deve ser guardado em algum lugar, então para a 
 ### -- Porque devo usar `&&` e `||`? 
 A diferença substancial é que no caso do `&&` quando for verificar as varáveis que estão sendo comparadas, caso a primeira atenda a condição, ele ignora a outra variável, pois não há necessidade de checagem. O que não ocorre quando você utiliza os operadores: `&` e `|`.
 
-## Switch case: Seu código sem ninhos
+## Switch case
+#### Seu código sem ninhos
 
 Uma alternativa que evita que seu código fique "aninhado" com vários `if` e `else`. Digamos que em um programa que você queira receber números de 1 à 7 atribuindo aos dias da semana, e assim, retornar se o **dia é útil** ou **fim de semana**. Para isso, se fôssemos utilizar `if` e `else` teríamos que fazer várias comparações. Por isso que neste caso é aconselhável utilizar o `Switch case`. Como sua estrutura é um pouco diferente do `if` e `else`, para que me lembre facilmente da sua estrutura eu faço o seguinte:
 
