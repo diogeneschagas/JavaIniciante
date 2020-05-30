@@ -1,7 +1,8 @@
 # Anotações
 
 Aqui, estão algumas anotações que faço durante os estudos. Neste arquivo compartilho algumas dicas e conceitos relacionadas ao que estou estudando. Fique à vontade para ler e contribuir enviando *feedback* para [meu perfil no LinkedIn](https://www.linkedin.com/in/di%C3%B3genes-chagas-604386bb/).
-<br>
+
+
 **IMPORTANTE**: Este documento é passível de revisão. Portanto, caso encontre alguma inconsistência (conceito ou dica equivocados) fique à vontade para corrigir. A ideia é colaborar, **SEMPRE!** 😉
 
 ## Capturando dados do teclado
@@ -31,7 +32,7 @@ Sabemos que o que você digitar deve ser guardado em algum lugar, então para a 
 `System.out.println("Informe o valor: ");` <br>
 `double valor = scanner.nextDouble();`
 
-**Importante:** Você deve utilizar o método `scanner.next` de acordo com o tipo de dado que vai armazenar na variável como demonstrado na tabela abaixo:
+**IMPORTANTE:** Você deve utilizar o método `scanner.next` de acordo com o tipo de dado que vai armazenar na variável como demonstrado na tabela abaixo:
 |                |TIPO                          |CHAMADA                         |
 |----------------|-------------------------------|-----------------------------|
 |Números inteiros|`int`            |`nextInt()`            |
@@ -46,13 +47,14 @@ A diferença substancial é que no caso do `&&` quando for verificar as varávei
 
 Uma alternativa que evita que seu código fique "aninhado" com vários `if` e `else`. Digamos que em um programa que você queira receber números de 1 à 7 atribuindo aos dias da semana, e assim, retornar se o **dia é útil** ou **fim de semana**. Para isso, se fôssemos utilizar `if` e `else` teríamos que fazer várias comparações. Por isso que neste caso é aconselhável utilizar o `Switch case`. Como sua estrutura é um pouco diferente do `if` e `else`, para que me lembre facilmente da sua estrutura eu faço o seguinte:
 
---Switch
--- Cases (casos)
---Default (padrão) --> Ele age como uma resposta padrão para o que não está dentro dos `cases`. 
-**Importante:** A cada bloco de condições, o comando `break` deve ser acionado no do bloco. Caso isso não aconteça, todos os blocos serão executados até que o `break` seja encontrado.  😉
+- Switch <br>
+- Cases (casos) <br>
+- Default (padrão) --> Ele age como uma resposta padrão para o que não está dentro dos `cases`. 
+
+**IMPORTANTE:** A cada bloco de condições, o comando `break` deve ser acionado no do bloco. Caso isso não aconteça, todos os blocos serão executados até que o `break` seja encontrado.  😉
 
 Você pode ver um exemplo de código utilizando o `Switch case` [clicando aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaSwitchCase.java)
 
 
-## E agora?
+## E agora? O que vem por aí?
 Para saber quais serão os próximos passos, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/README.md).
