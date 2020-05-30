@@ -13,6 +13,7 @@ Você pode utilizar a  classe *Scanner* juntamente com a classe *System* que atr
 **DICA:** É interessante você começar com um título. Até mesmo para você mostrar seu programa para outras pessoas. Já imaginou você mostrar seu programa para sua mãe, seu pai ou namorada (sei lá! 😜) e eles simplesmente se depararem com apenas uma linha "`Digite um valor:`". Por isso após instanciar o *Scanner*, imprima uma mensagem na tela informando do que se trata aquele programa. Exemplo:
 
 `System.out.println("Programa de Calculo do IMC");`
+
 **Já adiantando:** este trecho informa o que será "impresso" como saída na tela, por isso o *out*
 
 **Passo 2: Criando variáveis e armazenando os valores**
