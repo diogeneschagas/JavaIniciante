@@ -12,6 +12,6 @@ Abaixo, um *checklist* de conteúdos que envolvem os programas desenvolvidos nos
 * [x] Comandos condicionais (*if, else, Switch case*)
 * [ ] Estrutura de repetição (*for, While, do while*)
 * [ ] Estrutura e comando *For each*
-<br>
-Também organizei um arquivo de anotações com algumas dicas e como faço para lembrar alguns conceitos. Você pode acessá-lo clicando [aqui]()
+
+Também organizei um arquivo de anotações com algumas dicas e como faço para lembrar alguns conceitos. Você pode acessá-lo clicando [aqui](https://github.com/DioChagas/cursoJava/blob/master/Anotacoes.md)
 <!-- ### Introdução à POO (Programação Orientada a Objeto) -->
