@@ -8,8 +8,8 @@ Abaixo, um *checklist* de conteúdos que envolvem os programas desenvolvidos nos
 ### Primeiros passos
 * [x] Leitura de dados de entrada (*System.in*)
 * [x] Operadores aritméticos
-* [ ] Operadores Lógicos
-* [ ] Comandos condicionais (*if, else*)
+* [x] Operadores Lógicos
+* [x] Comandos condicionais (*if, else, Switch case*)
 * [ ] Estrutura de repetição (*for, While, do while*)
 * [ ] Estrutura e comando *For each*
 
