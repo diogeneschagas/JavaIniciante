@@ -6,11 +6,11 @@ public class AulaFor {
    
     public static void main(String[] args) {
         
-/*         // Com apenas uma variável
+        // Com apenas uma variável
         for (int i = 0; i < 5; i++) {
             System.out.println(i);
         }
- */
+
         // Com duas variáveis
         for (int i = 0, j = 10; i < j; i++, j--) {
             System.out.println("i = " + i + " | j = " + j);

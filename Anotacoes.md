@@ -10,6 +10,7 @@ Aqui, estão algumas anotações que faço durante os estudos. Neste arquivo com
 - [Capturando dados do teclado](#capturando-dados-do-teclado)
 - [Operadores Lógicos](#operadores-lógicos)
 - [Switch Case](#switch-case)
+- [Laços de repetição](#laços-de-repetição)
 
 ## Capturando dados do teclado
 
@@ -62,6 +63,17 @@ Uma alternativa que evita que seu código fique "aninhado" com vários `if` e `e
 
 Você pode ver um exemplo de código utilizando o `Switch case` [clicando aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaSwitchCase.java)
 
+## Laços de Repetição 
+#### *While, do While e For*
+
+Estruturas de repetição são muito comuns em sistemas sejam eles complexos ou não. Para controlar o fluxo de repetição nas aplicações, utilizamos as estruturas: *While, do While e For*. Mas, qual a diferença entre eles? Quando e como posso utilizar cada um? A seguir, uma tabela informativa sobre as principais características de cada um deles. 
+
+
+|LAÇO|PRINCIPAL CARACTERÍSTICA|
+|----|------------------------|
+|`while`        |Sua principal característica é que **antes** de executar determinado bloco de  código existe um critério de aceitação (uma espécie de "barreira"). Ou seja, uma condição que deve ser satisfeita. Para ver um exemplo de código utilizando o comando `while` [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaWhile.java)|
+|`do while`     |Diferentemente do laço `while`, esta estrutura define primeiro a **execução** do bloco de código para que somente **depois** da execução realizar a verficação. Para um exemplo mais didático, apliquei o laço `do while` no mesmo programa que utilizei o laço `while`. Você pode acessá-lo [clicando aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaDoWhile.java)|
+|`for`          |Nessa estrutura de repetição há algumas peculiaridades: Você pode definir o valor inicial da variável que vai determinar quantas vezes determinado bloco de código será utilizado (geralmente definida por `i`. Exemplo: `int i = 0`); em seguida, você pode inserir a condição de parada (exemplo: `i < 5`); e por fim, pode incrementar ou decrementar a variável (seguindo a lógica dos exemplos anteriores: `i++`). Contudo, essa estrutura não é a única que podemos utilizar para o laço `for`. Para fins didáticos, fiz **três exemplos de como podemos utilizar o laço `for`**. Tudo em um só arquivo!😁 Para acessar, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaFor.java) |
 
 ## E agora? O que vem por aí?
 Para saber quais serão os próximos passos, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/README.md#primeiros-passos).
