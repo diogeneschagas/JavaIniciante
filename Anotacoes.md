@@ -47,7 +47,7 @@ Sabemos que o que você digitar deve ser guardado em algum lugar, então para a 
 |Texto          |`String`|`nextLine()` ou `next()`|
 
 ## Operadores Lógicos
-### -- Porque devo usar `&&` e `||`? 
+### Porque devo usar `&&` e `||`? 
 A diferença substancial é que no caso do `&&` quando for verificar as varáveis que estão sendo comparadas, caso a primeira atenda a condição, ele ignora a outra variável, pois não há necessidade de checagem. O que não ocorre quando você utiliza os operadores: `&` e `|`.
 
 ## Switch case
