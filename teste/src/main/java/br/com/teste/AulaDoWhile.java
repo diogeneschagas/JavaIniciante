@@ -2,8 +2,8 @@ package br.com.teste;
 
 import java.util.Scanner;
 
-public class AulaSwitchCase {
-    public static void main(String[] args) {
+public class AulaDoWhile {
+    public static void main(final String[] args) {
         // Alternativas para IF's e ELSE aninhados
 
         Scanner scanner = new Scanner(System.in);
@@ -13,9 +13,7 @@ public class AulaSwitchCase {
         System.out.println("Informe um dia da semana: (1-7): ");
         diaDaSemana = scanner.nextInt();
 
-        if (diaDaSemana < 1 || diaDaSemana > 7) {
-            System.out.println("Dia inválido. Por favor, digite um dia entre 1 e 7");
-        } else {
+        do {
 
             switch (diaDaSemana) {
                 case 2:
@@ -33,8 +31,10 @@ public class AulaSwitchCase {
                     System.out.println("O dia escolhido não é válido.");
                     break;
             }
-        }
+        System.out.println("Informe um dia da semana: (1-7): ");
+        diaDaSemana = scanner.nextInt();
+        } while (diaDaSemana >= 1 || diaDaSemana <= 7);
         scanner.close();
-
     }
+
 }
