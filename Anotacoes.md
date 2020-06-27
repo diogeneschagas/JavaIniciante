@@ -102,12 +102,15 @@ Para ocultar a digitação da **senha** descobri que teria que ir além. A segui
 ```
 
 - **3)** Realizar, finalmente, a validação dos valores de **usuário** e **senha**. Para isso, utilizei o método `equals()`. Pelo menos isso é o que se usa quando desejamos comparar `Strings`. 😄
-<br>
+<br><br>
 Exemplo:
+
 ```java
     variavelUm.equals(variavelDois)
+    
 ```
-O código deste exercício encontra-se [aqui]()
+Para consulta, o código deste exercício encontra-se [aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/QuestoesPt3.java). (Vê lá e dá feedback 😄)
+<br>
 
 ## E agora? O que vem por aí?
 Para saber quais serão os próximos passos, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/README.md#primeiros-passos).
