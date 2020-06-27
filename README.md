@@ -11,6 +11,8 @@ Abaixo, um *checklist* de conteúdos que envolvem os programas desenvolvidos nos
 * [x] Operadores Lógicos
 * [x] Comandos condicionais (*if, else, Switch case*)
 * [x] Estrutura de repetição (*for, While, do while*)
+* [ ] Vetores (*Arrays*)
+* [ ] Matrizes (*Arrays multi-dimensionais*)
 * [ ] Estrutura e comando *For each*
 
 Também organizei um arquivo de anotações com algumas dicas e como faço para lembrar alguns conceitos. Você pode acessá-lo clicando [aqui](https://github.com/DioChagas/cursoJava/blob/master/Anotacoes.md)
