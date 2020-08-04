@@ -1,4 +1,4 @@
-package br.com.teste;
+package br.com.curso;
 
 import java.util.Scanner;
 
