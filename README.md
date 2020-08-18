@@ -11,7 +11,7 @@ Abaixo, um *checklist* de conteúdos que envolvem os programas desenvolvidos nos
 * [x] Operadores Lógicos
 * [x] Comandos condicionais (*if, else, Switch case*)
 * [x] Estrutura de repetição (*for, While, do while*)
-* [ ] Vetores (*Arrays*)
+* [x] Vetores (*Arrays*)
 * [ ] Matrizes (*Arrays multi-dimensionais*)
 * [ ] Estrutura e comando *For each*
 
