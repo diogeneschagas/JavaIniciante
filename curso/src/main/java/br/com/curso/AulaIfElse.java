@@ -1,5 +1,3 @@
-package br.com.curso;
-
 import java.util.Scanner;
 
 public class AulaIfElse {

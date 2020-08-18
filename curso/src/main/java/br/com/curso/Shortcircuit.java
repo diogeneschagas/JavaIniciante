@@ -1,5 +1,3 @@
-package br.com.curso;
-
 public class Shortcircuit {
     public static void main(String[] args) {
         boolean verdadeiro = true;

@@ -1,5 +1,3 @@
-package br.com.curso;
-
 /**
  * Hello world!
  *
