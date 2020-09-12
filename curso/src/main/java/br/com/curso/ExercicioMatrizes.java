@@ -7,6 +7,7 @@ public class ExercicioMatrizes {
 
         int alunos;                 // A quantidade de alunos será dada na entrada  'quantAlunos'
         int quantidadeNotas = 4;    // Esta pode ser considerada uma "regra de negócio" onde nesta escola é obrigatório que o aluno tenha 4 notas
+        int notaMinimaAprovacao = 7; // Esta é a nota mínima para ser aprovado
 
         // Inicialização dos leitores de dados que serão passados na entrada
         Scanner nomeUsuario = new Scanner(System.in);
@@ -32,7 +33,7 @@ public class ExercicioMatrizes {
             }
             double media = soma / quantidadeNotas;      // cálculo da média
             String resultadoFinal = "";
-            if(media >= 7){             // Verificação se o aluno foi 'aprovado' ou 'reprovado'
+            if(media >= notaMinimaAprovacao){             // Verificação se o aluno foi 'aprovado' ou 'reprovado'
                 resultadoFinal = "Certô, miseravi!";
             }else {
                 resultadoFinal = "não consegue, né?!";
