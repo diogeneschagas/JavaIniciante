@@ -1,6 +1,6 @@
 # Anotações
 
-Aqui, estão algumas anotações que faço durante os estudos. Neste arquivo compartilho algumas dicas e conceitos relacionadas ao que estou estudando. Fique à vontade para ler e contribuir enviando *feedback* para [meu perfil no LinkedIn](https://www.linkedin.com/in/di%C3%B3genes-chagas-604386bb/).
+Aqui, estão algumas anotações que faço durante os estudos. Neste arquivo compartilho algumas dicas e conceitos relacionadas ao que estou estudando. Fique à vontade para ler e contribuir enviando *feedback* para [meu perfil no LinkedIn](www.linkedin.com/in/diogeneschagas).
 
 
 **IMPORTANTE**: Este documento é passível de revisão. Portanto, caso encontre alguma inconsistência (conceito ou dica equivocados) fique à vontade para corrigir. A ideia é colaborar, **SEMPRE!** 😉
