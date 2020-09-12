@@ -76,6 +76,7 @@ Estruturas de repetição são muito comuns em sistemas sejam eles complexos ou 
 | `do while` | Diferentemente do laço `while`, esta estrutura define primeiro a **execução** do bloco de código para que somente **depois** da execução realizar a verficação. Para um exemplo mais didático, apliquei o laço `do while` no mesmo programa que utilizei o laço `while`. Você pode acessá-lo [clicando aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaDoWhile.java)                                                                                                                                                                                                                                                                                                                             |
 | `for`      | Nessa estrutura de repetição há algumas peculiaridades: Você pode definir o valor inicial da variável que vai determinar quantas vezes determinado bloco de código será utilizado (geralmente definida por `i`. Exemplo: `int i = 0`); em seguida, você pode inserir a condição de parada (exemplo: `i < 5`); e por fim, pode incrementar ou decrementar a variável (seguindo a lógica dos exemplos anteriores: `i++`). Contudo, essa estrutura não é a única que podemos utilizar para o laço `for`. Para fins didáticos, fiz **três exemplos de como podemos utilizar o laço `for`**. Tudo em um só arquivo!😁 Para acessar, [clique aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaFor.java) |
 
+| `for`      | Nessa estrutura de repetição há algumas peculiaridades: Você pode definir o valor inicial da variável que vai determinar quantas vezes determinado bloco de código será utilizado (geralmente definida por `i`. Exemplo: `int i = 0`); em seguida, você pode inserir a condição de parada (exemplo: `i < 5`); e por fim, pode incrementar ou decrementar a variável (seguindo a lógica dos exemplos anteriores: `i++`). Contudo, essa estrutura não é a única que podemos utilizar para o laço `for`. Para fins didáticos, fiz **três exemplos de como podemos utilizar o laço `for`**. Tudo em um só arquivo!😁 Para acessar, [clique aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaForEach.java) |
 
 ## Arrays
 #### *Listas em Java*
@@ -85,7 +86,9 @@ Mais connhecidas como *Arrays*, as listas em Java possuem algumas característic
     int[] arrayJava = new int[3]
         ...
 ```
-Para praticar, fiz um exercício (Bora lá! Nada de moleza aqui) que o programa recebe como entrada o dia da semana e como saída a resposta é a temperatura da cidade onde nasci (Sim! Lá temos quatro estações: Verão, calor, quentura e mormaço 😜). Para conferir o código, [clique aqui]()
+Para praticar, fiz dois exercícios (Bora lá! Nada de moleza aqui). Em um deles, o programa recebe como entrada o dia da semana e como saída a resposta é a temperatura da cidade onde nasci (Sim! Lá temos quatro estações: Verão, calor, quentura e mormaço 😜). Para conferir o código, [clique aqui](https://github.com/diogeneschagas/cursoJava/blob/master/curso/src/main/java/br/com/curso/AulaArrays.java)
+
+O outro, consiste em uma calculadora de notas de um aluno em que o programa recebe como entrada a quantidade de alunos que se deseja calcular suas notas e saber se no fim ele será **aprovado** ou **reprovado**. Para ver o código, [clique aqui](https://github.com/diogeneschagas/cursoJava/blob/master/curso/src/main/java/br/com/curso/ExercicioMatrizes.java)
 
 
 ## Exercícios 
