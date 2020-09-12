@@ -14,6 +14,7 @@ Abaixo, um *checklist* de conteúdos que envolvem os programas desenvolvidos nos
 * [x] Vetores (*Arrays*)
 * [x] Matrizes (*Arrays multi-dimensionais*)
 * [x] Estrutura e comando *For each*
+
 Ao completar a "Jornada dos primeiros passos", darei início à Jornada OO (Orientada à Objetos)! Aguardem, que vem novidades por aí! O repositório de OO está em construção.
 
 Também organizei um arquivo de anotações com algumas dicas e como faço para lembrar alguns conceitos. Você pode acessá-lo clicando [aqui](https://github.com/DioChagas/cursoJava/blob/master/Anotacoes.md)
