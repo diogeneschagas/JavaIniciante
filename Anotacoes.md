@@ -11,6 +11,7 @@ Aqui, estão algumas anotações que faço durante os estudos. Neste arquivo com
 - [Operadores Lógicos](#operadores-lógicos)
 - [Switch Case](#switch-case)
 - [Laços de repetição](#laços-de-repetição)
+- [Arrays](#arrays)
 - [Anotações de exercícios](#exercícios)
 ## Capturando dados do teclado
 
@@ -61,7 +62,7 @@ Uma alternativa que evita que seu código fique "aninhado" com vários `if` e `e
 
 **IMPORTANTE:** A cada bloco de condições, o comando `break` deve ser acionado no do bloco. Caso isso não aconteça, todos os blocos serão executados até que o `break` seja encontrado.  😉
 
-Você pode ver um exemplo de código utilizando o `Switch case` [clicando aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaSwitchCase.java)
+Você pode ver um exemplo de código utilizando o `Switch case` [clicando aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaSwitchCase.java)
 
 ## Laços de Repetição 
 #### *While, do While e For*
@@ -71,9 +72,21 @@ Estruturas de repetição são muito comuns em sistemas sejam eles complexos ou 
 
 | LAÇO       | PRINCIPAL CARACTERÍSTICA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `while`    | Sua principal característica é que **antes** de executar determinado bloco de  código existe um critério de aceitação (uma espécie de "barreira"). Ou seja, uma condição que deve ser satisfeita. Para ver um exemplo de código utilizando o comando `while` [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaWhile.java)                                                                                                                                                                                                                                                                                                                                                                 |
-| `do while` | Diferentemente do laço `while`, esta estrutura define primeiro a **execução** do bloco de código para que somente **depois** da execução realizar a verficação. Para um exemplo mais didático, apliquei o laço `do while` no mesmo programa que utilizei o laço `while`. Você pode acessá-lo [clicando aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaDoWhile.java)                                                                                                                                                                                                                                                                                                                             |
-| `for`      | Nessa estrutura de repetição há algumas peculiaridades: Você pode definir o valor inicial da variável que vai determinar quantas vezes determinado bloco de código será utilizado (geralmente definida por `i`. Exemplo: `int i = 0`); em seguida, você pode inserir a condição de parada (exemplo: `i < 5`); e por fim, pode incrementar ou decrementar a variável (seguindo a lógica dos exemplos anteriores: `i++`). Contudo, essa estrutura não é a única que podemos utilizar para o laço `for`. Para fins didáticos, fiz **três exemplos de como podemos utilizar o laço `for`**. Tudo em um só arquivo!😁 Para acessar, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaFor.java) |
+| `while`    | Sua principal característica é que **antes** de executar determinado bloco de  código existe um critério de aceitação (uma espécie de "barreira"). Ou seja, uma condição que deve ser satisfeita. Para ver um exemplo de código utilizando o comando `while` [clique aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaWhile.java)                                                                                                                                                                                                                                                                                                                                                                 |
+| `do while` | Diferentemente do laço `while`, esta estrutura define primeiro a **execução** do bloco de código para que somente **depois** da execução realizar a verficação. Para um exemplo mais didático, apliquei o laço `do while` no mesmo programa que utilizei o laço `while`. Você pode acessá-lo [clicando aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaDoWhile.java)                                                                                                                                                                                                                                                                                                                             |
+| `for`      | Nessa estrutura de repetição há algumas peculiaridades: Você pode definir o valor inicial da variável que vai determinar quantas vezes determinado bloco de código será utilizado (geralmente definida por `i`. Exemplo: `int i = 0`); em seguida, você pode inserir a condição de parada (exemplo: `i < 5`); e por fim, pode incrementar ou decrementar a variável (seguindo a lógica dos exemplos anteriores: `i++`). Contudo, essa estrutura não é a única que podemos utilizar para o laço `for`. Para fins didáticos, fiz **três exemplos de como podemos utilizar o laço `for`**. Tudo em um só arquivo!😁 Para acessar, [clique aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/AulaFor.java) |
+
+
+## Arrays
+#### *Listas em Java*
+Mais connhecidas como *Arrays*, as listas em Java possuem algumas características. A primeira delas é que todo *Array* inicia sua contagem em **zero**. Ou seja, caso queira inserir 4 elementos em um array, devo colocar 3 por parâmetro na criação dele (como no exemplo abaixo):
+
+```java
+    int[] arrayJava = new int[3]
+        ...
+```
+Para praticar, fiz um exercício (Bora lá! Nada de moleza aqui) que o programa recebe como entrada o dia da semana e como saída a resposta é a temperatura da cidade onde nasci (Sim! Lá temos quatro estações: Verão, calor, quentura e mormaço 😜). Para conferir o código, [clique aqui]()
+
 
 ## Exercícios 
 #### *Escondendo caracteres utilizando o `console.readPassword()`*
@@ -109,8 +122,8 @@ Exemplo:
     variavelUm.equals(variavelDois)
     
 ```
-Para consulta, o código deste exercício encontra-se [aqui](https://github.com/DioChagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/QuestoesPt3.java). (Vê lá e dá feedback 😄)
+Para consulta, o código deste exercício encontra-se [aqui](https://github.com/diogeneschagas/cursoJava/blob/master/teste/src/main/java/br/com/teste/QuestoesPt3.java). (Vê lá e dá feedback 😄)
 <br>
 
 ## E agora? O que vem por aí?
-Para saber quais serão os próximos passos, [clique aqui](https://github.com/DioChagas/cursoJava/blob/master/README.md#primeiros-passos).
+Para saber quais serão os próximos passos, [clique aqui](https://github.com/diogeneschagas/cursoJava/blob/master/README.md#primeiros-passos).
