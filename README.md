@@ -17,5 +17,4 @@ Abaixo, um *checklist* de conteúdos que envolvem os programas desenvolvidos nos
 
 Também organizei um arquivo de anotações com algumas dicas e como faço para lembrar alguns conceitos. Você pode acessá-lo clicando [aqui](https://github.com/diogeneschagas/cursoJava/blob/master/Anotacoes.md)
 
-Ao completar a "Jornada dos primeiros passos", darei início à Jornada OO (Orientada à Objetos)! Aguardem, que vem novidades por aí! O repositório de OO está em construção. Mas já está criado, hein?! 😉
-### [Introdução à POO (Programação Orientada a Objeto)](https://github.com/diogeneschagas/javaOO)
+Ao completar a "Jornada dos primeiros passos", darei início à Jornada OO (Orientada à Objetos)! Aguardem, que vem novidades por aí! O repositório de OO está em construção. Mas já está criado, hein?! [Clica aqui e dá uma conferida!](https://github.com/diogeneschagas/javaOO) 😉
