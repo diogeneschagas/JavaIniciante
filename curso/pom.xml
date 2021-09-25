@@ -23,8 +23,12 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
+<<<<<<< dependabot/maven/curso/junit-junit-4.13.1
       <version>4.13.1</version>
       <scope>test</scope>
+=======
+      <version>[4.13.1,)</version>
+>>>>>>> master
     </dependency>
   </dependencies>
 
